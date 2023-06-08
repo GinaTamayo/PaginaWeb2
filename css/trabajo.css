@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(21, 21, 26);
+    color: aliceblue;
+    padding: 20px;
+}
+header h2 {
+    float: left;
+    margin: 0 6px 0 70px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+}
+#segundoH2 {
+    color: #1293d4;
+    margin: 0;
+}
+header nav{
+    margin: 8px 70px 0 0;
+    float: right;
+}
+
+ header nav ul li {
+    display: inline;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+
+}
+nav ul li a {
+    color: aliceblue;
+    text-decoration: none;
+    margin: 0 8px;
+}
+ul li a:hover{
+    color: #1293d4;
+}
+.main1 {
+    background: url(../images/cabecera.jpg);
+    margin: 0;
+    padding: 6% 30%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+main h1 {
+    margin: 0;
+    padding: auto;
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+
+}
+main p {
+    padding: auto;
+    margin: 3% 0 10% 0 ;
+    text-align: center;
+    font-size: 12px;
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+}
+/*class*/
+.unico{
+    clear: both;
+    background-color: #1293d4;
+    padding: 2px;
+}
+.clear {
+clear: both;
+}
+
+.main2 {
+    clear: both;
+    background-color: rgb(21, 21, 26);
+    padding: 25px;
+    color: aliceblue;
+/*clases*/
+}
+h4 {
+    color: aliceblue;
+    margin: 0 0 0 76px;
+    display: inline;
+    font-family: 'Roboto', sans-serif;
+}
+input{
+    float: right;
+    background-color: rgb(255, 255, 255);
+    padding: 3px 30px 3px 3px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+button{
+    float: right;
+    background-color: rgb(255, 115, 0);
+    color: aliceblue;
+    padding: 5px 15px ;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 76px 0 3px ;
+    
+}
+/*clases*/
+.enOrden{
+    display: flex;
+    gap: 10rem;
+    text-align: center;
+    padding-top: 30px;
+    justify-content: center; 
+    margin: 0 250px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.enOrden article h2{
+    margin: 12px 0;
+    text-align: center;
+    font-size: 17px;
+}
+.enOrden article p{
+    margin:0 ;
+}
+
+/*clases*/
+
+
+   footer{
+    background-color: #1293d4;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding:25px 0;
+    margin: 12px 0 0 0;
+    font-family: 'Roboto', sans-serif;
+   }
+   
+/*nosotros*/
+.main4{
+    margin: 5px 80px;
+}
+.main4 main{
+    margin: 0;
+}
+.main41 {
+    width: 700px;
+    padding: 0;
+    float: left;
+    font-family: 'Roboto', sans-serif;
+}
+.main4 img {
+    width: 700px;
+}
+.main41 p{
+    color: black;
+    margin: 7px 0;
+    padding: 8px;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+}
+.main41 .parrafo2 {
+    color: rgb(255, 255, 255);
+    background-color: rgba(36, 36, 48, 0.924);
+    font-family: 'Roboto', sans-serif;
+    
+}
+.main41 img{
+    padding: 0;
+}
+
+.flotarDerecha{
+    float: right;
+    width: 270px;
+    background-color: rgba(36, 36, 48, 0.924);
+}
+.flotarDerecha h3{
+    color: rgb(255, 255, 255);
+    padding:  17px 14px 0 14px;
+    font-family: 'Roboto', sans-serif;
+}
+.flotarDerecha p{
+    text-align: left;
+    padding: 0 14px 0 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*servicios*/
+.main41 h3{
+    margin: 8px 6px;
+}
+.seccionServicios p{
+    padding: 0 6px;
+}
+.seccionServicios .segundoParrafo{
+    padding:6px 0 20px 6px;
+}
+.seccionServicios{
+    background-color: rgb(227, 227, 238);
+    font-family: 'Roboto', sans-serif;
+}
+.seccionServicios h3{
+    padding: 5px 0 0 0;
+}
+/*contacto*/
+.main42{
+    float: left;
+    margin: 4px 0;
+}
+.main42 h3{
+    margin: 0 0 5px 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main42 input{
+    padding: 4px 500px 4px 2px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.main42 label{
+    font-family: 'Roboto', sans-serif;
+}
+.main42 button{
+    margin: 5px 0;
+    padding: 4px 306px 4px 306px;
+    float: left;
+}
+.main4 .imagenFlotarDerecha{
+    float: right;
+    width: 270px;
+    margin: 5px 0 0 0;
+}
+#mensaje{
+    float: left;
+    padding: 0 500px 75px 0;
+}
+
+
